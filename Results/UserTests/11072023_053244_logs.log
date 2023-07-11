@@ -1,0 +1,8 @@
+[INFO ] 2023-07-11 17:32:45.175 [main] api.test.UserTests - ******* Creating user*****
+[INFO ] 2023-07-11 17:32:46.429 [main] api.test.UserTests - ******** CReating user completed **********
+[INFO ] 2023-07-11 17:32:46.431 [main] api.test.UserTests - ******** Reading user  **********
+[INFO ] 2023-07-11 17:32:46.632 [main] api.test.UserTests - ******** Reading user completed **********
+[INFO ] 2023-07-11 17:32:46.633 [main] api.test.UserTests - ******** Updating user  **********
+[INFO ] 2023-07-11 17:32:47.027 [main] api.test.UserTests - ******** UPdating user completed **********
+[INFO ] 2023-07-11 17:32:47.028 [main] api.test.UserTests - ******** Delete user  **********
+[INFO ] 2023-07-11 17:32:47.223 [main] api.test.UserTests - ******** Delete user completed **********

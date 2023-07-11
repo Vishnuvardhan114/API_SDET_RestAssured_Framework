@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.332" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/test-classes:/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/classes:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/vishnureddykunnam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/vishnureddykunnam/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnureddykunnam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/vishnureddykunnam/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/vishnureddykunnam/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/vishnureddykunnam/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/vishnureddykunnam/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/vishnureddykunnam/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnureddykunnam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/vishnureddykunnam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/vishnureddykunnam/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/json-schema-validator/5.1.1/json-schema-validator-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnureddykunnam/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnureddykunnam/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnureddykunnam/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnureddykunnam/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnureddykunnam/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnureddykunnam/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnureddykunnam/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnureddykunnam/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnureddykunnam/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnureddykunnam/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnureddykunnam/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnureddykunnam/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/vishnureddykunnam/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/vishnureddykunnam/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/vishnureddykunnam/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vishnureddykunnam/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/vishnureddykunnam/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/vishnureddykunnam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/vishnureddykunnam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/vishnureddykunnam/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/surefire/surefirebooter-20230711173243845_3.jar /Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/surefire 2023-07-11T17-32-43_773-jvmRun1 surefire-20230711173243845_1tmp surefire_0-20230711173243845_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/test-classes:/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/classes:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/vishnureddykunnam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/vishnureddykunnam/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/vishnureddykunnam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/vishnureddykunnam/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/vishnureddykunnam/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/org/json/json/20230227/json-20230227.jar:/Users/vishnureddykunnam/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/vishnureddykunnam/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/vishnureddykunnam/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vishnureddykunnam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/vishnureddykunnam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/vishnureddykunnam/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/vishnureddykunnam/.m2/repository/io/rest-assured/json-schema-validator/5.1.1/json-schema-validator-5.1.1.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vishnureddykunnam/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vishnureddykunnam/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/vishnureddykunnam/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/vishnureddykunnam/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/vishnureddykunnam/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/vishnureddykunnam/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/vishnureddykunnam/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/vishnureddykunnam/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/vishnureddykunnam/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/vishnureddykunnam/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/vishnureddykunnam/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/vishnureddykunnam/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/vishnureddykunnam/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/vishnureddykunnam/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/vishnureddykunnam/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/vishnureddykunnam/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/vishnureddykunnam/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vishnureddykunnam/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/vishnureddykunnam/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/vishnureddykunnam/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/vishnureddykunnam/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/vishnureddykunnam/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishnureddykunnam/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vishnureddykunnam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET/target/surefire/surefirebooter-20230711173243845_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
+    <property name="user.name" value="vishnureddykunnam"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/vishnureddykunnam/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_z/f6m19ngj5ys_3dmyhvl4469m0000gn/T/"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/vishnureddykunnam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
+    <property name="Results" value="/Users/vishnureddykunnam/eclipse-workspace/API_RestAssured_FrameWork_SDET//Results//UserTests//"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="Curr_Time" value="11072023_053244"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="test_PostUser" classname="api.test.UserTests" time="1.258">
+    <system-out><![CDATA[%%%%%%%%%%%%%%% Vishnu %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Vishnu %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Vishnu %%%%%%%%%%%%%%%%%%
+^^^^^^ Test Start
+******Post Request*****
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 21:32:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1495608502"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test_GetUserByName" classname="api.test.UserTests" time="0.2">
+    <system-out><![CDATA[{Thread[main,5,main]=[Ljava.lang.StackTraceElement;@4f9980e1, Thread[surefire-forkedjvm-stream-flusher,5,main]=[Ljava.lang.StackTraceElement;@1f6e6f50, Thread[ForkJoinPool.commonPool-worker-7,5,main]=[Ljava.lang.StackTraceElement;@1f7fcec2, Thread[Reference Handler,10,system]=[Ljava.lang.StackTraceElement;@796cf2b5, Thread[ForkJoinPool.commonPool-worker-3,5,main]=[Ljava.lang.StackTraceElement;@7a71ebf1, Thread[ForkJoinPool.commonPool-worker-9,5,main]=[Ljava.lang.StackTraceElement;@16890f00, Thread[Signal Dispatcher,9,system]=[Ljava.lang.StackTraceElement;@77e1dacd, Thread[Common-Cleaner,8,InnocuousThreadGroup]=[Ljava.lang.StackTraceElement;@690677de, Thread[Finalizer,8,system]=[Ljava.lang.StackTraceElement;@1c5d376c, Thread[ForkJoinPool.commonPool-worker-5,5,main]=[Ljava.lang.StackTraceElement;@42f2cae8, Thread[surefire-forkedjvm-command-thread,5,main]=[Ljava.lang.StackTraceElement;@3bbc47c9}
+*****Get Request*******
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 21:32:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1495608502,
+    "username": "frankie.hoppe",
+    "firstName": "Deidra",
+    "lastName": "Keeling",
+    "email": "maddie.ernser@gmail.com",
+    "password": "4i2p7ysdv3",
+    "phone": "554-460-4204",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test_ModifyUserByName" classname="api.test.UserTests" time="0.395">
+    <system-out><![CDATA[******* Put Request*******
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 21:32:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1495608502"
+}
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 21:32:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1495608502,
+    "username": "frankie.hoppe",
+    "firstName": "Deidra",
+    "lastName": "Keeling",
+    "email": "Vishnu.Vardhan@wipro.com",
+    "password": "4i2p7ysdv3",
+    "phone": "554-460-4204",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="test_DeleteUserByName" classname="api.test.UserTests" time="0.196">
+    <system-out><![CDATA[******* Delete Request*******
+HTTP/1.1 200 OK
+Date: Tue, 11 Jul 2023 21:32:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "frankie.hoppe"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
