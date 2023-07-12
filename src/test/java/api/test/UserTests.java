@@ -52,6 +52,7 @@ public class UserTests {
 	@BeforeTest
 	public void testInit() {
 		System.out.println("^^^^^^ Test Start");
+		System.out.println("^^^^^^ Test Start");
 		exr.reportInit();
 		
 	}
