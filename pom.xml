@@ -36,8 +36,8 @@
                         </compilerArguments>
                         <fork>true</fork>
                         <verbose>true</verbose>
-                        <source>17</source>
-                        <target>17</target>
+                        <source>11</source>
+                        <target>11</target>
                         <showWarnings>true</showWarnings>
                         <compilerVersion>17</compilerVersion>
                         <debug>true</debug>
