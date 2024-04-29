@@ -7,4 +7,5 @@
   "password": "string",
   "phone": "string",
   "userStatus": 0
+"userStatus": 0
 }
